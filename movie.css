@@ -1,0 +1,105 @@
+body {
+    color: #404040;
+    text-align: center;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url("images/background.png");
+}
+h1 {
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+div#banner {
+	position: fixed;
+	left: 0px;
+    background-image: url("images/banner.png");
+    background-repeat:repeat-x;
+	width: 100%;
+    height: 50px;
+}
+div#overall {
+    text-align: left;
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#bottombar, div#Overview {
+    background-color: #A2B964;
+}
+div#bottombar {
+    clear: right;
+    text-align: center;
+    padding: 5px;
+}
+div#Overview {
+    width: 250px;
+    float: right;
+    font-size: 8pt;
+    font-family: rial, sans-serif;
+}
+dl.OverViewdl > dt {
+    margin: 10pt 10pt 0pt 10pt;
+    font-weight: bold;
+}
+dl.OverViewdl  dd > ul{
+    position: relative;
+    left: -30pt;
+    top: -8pt;
+    list-style-type: none;
+    margin-top: 10pt;
+}
+div#reviews {
+    width: 550px;
+}
+div#reviewsbar{
+    background-image: url("images/rbg.png");
+    background-repeat:repeat-x;
+    height:83px;
+}
+img#reviewsbarimg{
+    float: left;
+    vertical-align: bottom
+}
+div#rate{
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    vertical-align: bottom
+}
+div.reviewcol {  
+    float: left;
+    display: inline;
+    width: 47%; 
+    margin: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.reviewquote {
+    font-size: 8pt;
+    background-color: #e8dc9b;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: bold;
+}
+img.likeimg, img.personimg {
+    float: left;
+}
+img.likeimg {
+    margin-right: 5px;
+}
+div.personalquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#w3ccheck {
+  position: fixed;
+  right: 0px;
+  bottom: 60px;
+  opacity: 0.5
+}
